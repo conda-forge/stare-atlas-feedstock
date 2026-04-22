@@ -1,5 +1,5 @@
 context:
-  version: "0.3.0rc0"
+  version: "0.3.0rc1"
 
 package:
   name: "stare-atlas"
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.org/packages/source/s/stare/stare-${{ version }}.tar.gz
-  sha256: f6ba8fd29c1d4dcb2434b06a02a057ee3584abdc40e614490e36d6d26f45ed44
+  sha256: 07d5fdcb26480d2d522d263f2bc07744df315f23c2e9d30f90b371a1ba40a305
 
 build:
   noarch: python
   script: python -m pip install . -vv
-  number: 1
+  number: 0
   python:
     entry_points:
       - stare = stare.cli:app
