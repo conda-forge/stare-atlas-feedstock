@@ -40,14 +40,14 @@ Current release info
 Installing stare-atlas
 ======================
 
-Installing `stare-atlas` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `stare-atlas` from the `conda-forge/label/stare-atlas_rc` channel can be achieved by adding `conda-forge/label/stare-atlas_rc` to your channels with:
 
 ```
-conda config --add channels conda-forge
+conda config --add channels conda-forge/label/stare-atlas_rc
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `stare-atlas` can be installed with `conda`:
+Once the `conda-forge/label/stare-atlas_rc` channel has been enabled, `stare-atlas` can be installed with `conda`:
 
 ```
 conda install stare-atlas
@@ -62,26 +62,26 @@ mamba install stare-atlas
 It is possible to list all of the versions of `stare-atlas` available on your platform with `conda`:
 
 ```
-conda search stare-atlas --channel conda-forge
+conda search stare-atlas --channel conda-forge/label/stare-atlas_rc
 ```
 
 or with `mamba`:
 
 ```
-mamba search stare-atlas --channel conda-forge
+mamba search stare-atlas --channel conda-forge/label/stare-atlas_rc
 ```
 
 Alternatively, `mamba repoquery` may provide more information:
 
 ```
 # Search all versions available on your platform:
-mamba repoquery search stare-atlas --channel conda-forge
+mamba repoquery search stare-atlas --channel conda-forge/label/stare-atlas_rc
 
 # List packages depending on `stare-atlas`:
-mamba repoquery whoneeds stare-atlas --channel conda-forge
+mamba repoquery whoneeds stare-atlas --channel conda-forge/label/stare-atlas_rc
 
 # List dependencies of `stare-atlas`:
-mamba repoquery depends stare-atlas --channel conda-forge
+mamba repoquery depends stare-atlas --channel conda-forge/label/stare-atlas_rc
 ```
 
 
