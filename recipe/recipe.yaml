@@ -1,5 +1,5 @@
 context:
-  version: "0.4.0"
+  version: "0.4.1"
 
 package:
   name: "stare-atlas"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/s/stare/stare-${{ version }}.tar.gz
-  sha256: 65c99d38b16aa810d5f76f63b5e3464fde3071f3aea42dac802b8ff84a890316
+  sha256: 96573e94b3e6a7237897a6ae167bf750630d3be6314838953e745d79541f0e2b
 
 build:
   noarch: python
