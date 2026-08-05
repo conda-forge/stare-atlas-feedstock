@@ -1,13 +1,13 @@
 context:
-  version: "0.5.0"
+  version: "0.5.1"
 
 package:
   name: "stare-atlas"
   version: ${{ version }}
 
 source:
-  url: https://files.pythonhosted.org/packages/7e/99/fa69206b1872f1e7aa0148cc4a7263e56286ed8b7935dfd0890453ad797c/stare-${{ version }}.tar.gz
-  sha256: 532cc5329fe1ec3785c1323585026285ff740f43188cc6a3fbb1b0600ec6d0c5
+  url: https://files.pythonhosted.org/packages/78/4d/4f63dd9f6a3cf1ed892203087704e36ec119e0d0d7e54052d4491b277a54/stare-${{ version }}.tar.gz
+  sha256: c0720c5958e9bf36fcc20b001c56c41e0f3c2f3a8ef250faa963b34b8d61b113
 
 build:
   noarch: python
