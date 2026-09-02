@@ -1,13 +1,13 @@
 context:
-  version: "0.5.1"
+  version: "0.5.2"
 
 package:
   name: "stare-atlas"
   version: ${{ version }}
 
 source:
-  url: https://files.pythonhosted.org/packages/78/4d/4f63dd9f6a3cf1ed892203087704e36ec119e0d0d7e54052d4491b277a54/stare-${{ version }}.tar.gz
-  sha256: c0720c5958e9bf36fcc20b001c56c41e0f3c2f3a8ef250faa963b34b8d61b113
+  url: https://pypi.org/packages/source/s/stare/stare-${{ version }}.tar.gz
+  sha256: 9c7c330441bc945539155c283bfb93730a27ef4509a73e233b0a7d8da62a8f86
 
 build:
   noarch: python
