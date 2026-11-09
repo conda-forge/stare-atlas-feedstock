@@ -1,5 +1,5 @@
 context:
-  version: "0.6.1"
+  version: "0.7.0"
 
 package:
   name: "stare-atlas"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/s/stare/stare-${{ version }}.tar.gz
-  sha256: 5e5111ff671678c4a35cf3b5588fd7a90725d4a07839df34b2bd81a6415202a9
+  sha256: ef2e53d2d9824b1b72c562c4a293912d350b95fc9b46bb0a3a1e6ae6b96a681f
 
 build:
   noarch: python
@@ -26,7 +26,7 @@ requirements:
   run:
     - python >=${{ python_min }}
     - httpx
-    - hishel
+    - hishel >=1,<2
     - keyring
     - pyjwt
     - cryptography
