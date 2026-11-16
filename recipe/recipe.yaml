@@ -26,7 +26,7 @@ requirements:
   run:
     - python >=${{ python_min }}
     - httpx
-    - hishel >=1,<2
+    - hishel >=2,<3
     - keyring
     - pyjwt
     - cryptography
